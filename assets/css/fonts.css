@@ -1,0 +1,36 @@
+@font-face {
+  	font-family: 'HelveticaNeueLTCom-Bd';
+  	src: url('../fonts/HelveticaNeueLTCom-Bd.eot');
+  	src: url('../fonts/HelveticaNeueLTCom-Bd.woff2') format('woff2'),
+       	url('../fonts/HelveticaNeueLTCom-Bd.woff') format('woff'),
+       	url('../fonts/HelveticaNeueLTCom-Bd.ttf') format('truetype'),
+       	url('../fonts/HelveticaNeueLTCom-Bd.svg#HelveticaNeueLTCom-Bd') format('svg'),
+       	url('../fonts/HelveticaNeueLTCom-Bd.eot?#iefix') format('embedded-opentype');
+  	font-weight: normal;
+  	font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaNeueLTCom';
+    src: url('../fonts/HelveticaNeueLTCom.eot');
+    src: url('../fonts/HelveticaNeueLTCom.woff2') format('woff2'),
+        url('../fonts/HelveticaNeueLTCom.woff') format('woff'),
+        url('../fonts/HelveticaNeueLTCom.ttf') format('truetype'),
+        url('../fonts/HelveticaNeueLTCom.svg#HelveticaNeueLTCom') format('svg'),
+        url('../fonts/HelveticaNeueLTCom.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+  	font-family: 'BebasNeue-Bold';
+  	src: url('../fonts/bebasneue_bold-webfont.eot');
+  	src: url('../fonts/bebasneue_bold-webfont.woff2') format('woff2'),
+       	url('../fonts/bebasneue_bold-webfont.woff') format('woff'),
+       	url('../fonts/bebasneue_bold-webfont.ttf') format('truetype'),
+       	url('../fonts/bebasneue_bold-webfont.svg#bebasneue_bold-webfont') format('svg'),
+       	url('../fonts/bebasneue_bold-webfont.eot?#iefix') format('embedded-opentype');
+  	font-weight: normal;
+  	font-style: normal;
+}
+

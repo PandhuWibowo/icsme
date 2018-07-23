@@ -1,0 +1,5 @@
+[16-Jul-2018 02:47:03 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '[' in /home/icsme/public_html/admin/application/libraries/Grocery_CRUD.php on line 597
+[16-Jul-2018 02:47:54 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '[' in /home/icsme/public_html/admin/application/libraries/Grocery_CRUD.php on line 597
+[16-Jul-2018 02:49:13 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '[' in /home/icsme/public_html/admin/application/libraries/Grocery_CRUD.php on line 597
+[16-Jul-2018 03:02:41 Asia/Jakarta] PHP Fatal error:  Cannot use object of type stdClass as array in /home/icsme/public_html/admin/application/controllers/Manager.php on line 120
+[16-Jul-2018 03:02:41 Asia/Jakarta] PHP Fatal error:  Cannot use object of type stdClass as array in /home/icsme/public_html/admin/application/controllers/Manager.php on line 120

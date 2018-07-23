@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="-3 -137 605 1066" style="enable-background:new -3 -137 605 1066;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#FFFFFF;stroke-width:2;}
+	.st1{fill:none;}
+	.st2{fill:url(#SVGID_1_);}
+	.st3{fill:#C4C4C4;stroke:#000000;}
+</style>
+<g id="Layer_1_1_">
+	
+		<rect x="-422.4" y="-394.2" transform="matrix(-0.7071 0.7071 -0.7071 -0.7071 -148.7582 137.7621)" class="st0" width="638.9" height="864.6"/>
+	<g>
+		<rect x="-189" y="-356.8" class="st1" width="1743.1" height="980.6"/>
+		
+			<image style="overflow:visible;enable-background:new    ;" width="1296" height="729" xlink:href="../uploads/slide_conference.jpg"  transform="matrix(1.35 0 0 1.35 -196.7328 -358.6889)">
+		</image>
+	</g>
+	
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-349.0746" y1="451.5525" x2="-348.0746" y2="451.5525" gradientTransform="matrix(318.825 -317.9784 -13.1523 -22.0009 117311.2891 -100577.3984)">
+		<stop  offset="0" style="stop-color:#544C2A"/>
+		<stop  offset="1" style="stop-color:#786C3D"/>
+	</linearGradient>
+	<polygon class="st2" points="371.2,164.7 64.5,471.5 93.8,500.8 400.6,194.1 	"/>
+</g>
+<path class="st3" d="M27.2,516.7l389.5-389.5L42.2-247.3l-389.5,389.5L27.2,516.7z"/>
+<g id="Layer_2">
+	
+		<image style="overflow:visible;enable-background:new    ;" width="173" height="173" xlink:href="icon-05.png"  transform="matrix(1 0 0 1 236.521 -162.6874)">
+	</image>
+</g>
+</svg>
