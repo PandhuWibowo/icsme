@@ -29,6 +29,7 @@
 								<h1 class="text-bebas title-section-ticket">Payment Amount</h1>
 							</div>
 							<div class="col-md-6 col-lg-6 colm">
+								<!-- Nama Anda : <?php echo @$_COOKIE['user'];?> -->
 								<h1 class="text-bebas text-right title-section-ticket payment-amount">US$ <?php echo @$_COOKIE['total'];?></h1>
 							</div>
 						</div>

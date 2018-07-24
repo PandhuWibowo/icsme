@@ -18,9 +18,47 @@ class Manager extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
+	public function __construct()
+	{
+		// created the construct so that the helpers, libraries, models can be loaded all through this controller
+		parent::__construct();
+		$this->load->helper('url');
+		// $this->load->library('xmlrpc');
+		// $this->load->library('xmlrpcs');
+		// $this->load->library('curl');
+		// path to simple_html_dom 
+        include APPPATH . 'third_party/simple_html_dom.php';
+	}
+
 	public function index()
 	{
 		redirect('manager/login');
+		//Create object of Simple_html_dom class 
+        // $html = new Simple_html_dom();
+		// persiapkan curl
+		// $url = "https://api.github.com/users/petanikode";
+		// $ch = curl_init(); 
+
+		// // set url 
+		// curl_setopt($ch, CURLOPT_URL, $url);
+		
+		// // set user agent    
+		// curl_setopt($ch,CURLOPT_USERAGENT,'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.13) Gecko/20080311 Firefox/2.0.0.13');
+	
+		// // return the transfer as a string 
+		// curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1); 
+	
+		// // $output contains the output string 
+		// $output = curl_exec($ch); 
+	
+		// // tutup curl 
+		// curl_close($ch);      
+	
+		// // mengembalikan hasil curl
+		// // return $output;
+		// $profile = json_decode($output, TRUE);
+		// // print_r($profile);
+		// echo $profile['avatar_url'];
 	}
 	
 	public function login(){
@@ -88,6 +126,7 @@ class Manager extends CI_Controller {
 				}
 			}
 			setcookie("total", $total, time() + (86400 * 30), "/");
+			// setcookie("nama_anda", )
 			if($this->config->item('send_mail')){
 				$data_user=json_decode(base64_decode($_COOKIE['user_data']),true);
 				$message='<h2>Hai, '.$_COOKIE['user'].'</h2>';

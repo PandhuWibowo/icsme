@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://icsme.id/admin/';
+$config['base_url'] = 'http://localhost/Kerjaan/icsme/admin/';
 
 /*
 |--------------------------------------------------------------------------
@@ -504,10 +504,10 @@ $config['time_reference'] = 'local';
 */
 $config['rewrite_short_tags'] = FALSE;
 
-$config['send_mail']=TRUE;
+$config['send_mail']=FALSE;
 $config['sender_mail']='noreply@icsme.id';
 $config['cc_mail']='';
-$config['bcc_mail']='djono@webgopek.com';
+$config['bcc_mail']='pandhuw58@gmail.com';
 /*
 |--------------------------------------------------------------------------
 | Reverse Proxy IPs
