@@ -1,0 +1,53 @@
+[
+    {
+        "name": "veritrans/veritrans-php",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/veritrans/veritrans-php.git",
+            "reference": "382f3514ebb3fb768adc820768c62932d8cfec07"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/veritrans/veritrans-php/zipball/382f3514ebb3fb768adc820768c62932d8cfec07",
+            "reference": "382f3514ebb3fb768adc820768c62932d8cfec07",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "5.7.*",
+            "psy/psysh": "0.4.*"
+        },
+        "time": "2018-05-19T11:20:46+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "classmap": [
+                ""
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-3.0"
+        ],
+        "authors": [
+            {
+                "name": "Andri Setiawan",
+                "email": "andri.setiawan@veritrans.co.id"
+            },
+            {
+                "name": "Alvin Litani",
+                "email": "alvin.litani@veritrans.co.id"
+            },
+            {
+                "name": "Ismail Faruqi",
+                "email": "ismail.faruqi@veritrans.co.id"
+            }
+        ],
+        "description": "PHP Wraper for Veritrans VT-Web Payment API.",
+        "homepage": "https://midtrans.com"
+    }
+]

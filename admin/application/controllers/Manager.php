@@ -69,7 +69,7 @@ class Manager extends CI_Controller {
 			//$this->WriteLog(current_url(),'login',$result->username);
 		}
 		if($form=='cart'){
-			if($_COOKIE['member_id']){
+			if(isset($_COOKIE['member_id'])){
 			$post=$this->input->post();
 			$product=array('PRESENTER - Early Bird','PRESENTER - Regular','Observer / Non presenter');
 			$price=array(250,300,250);
@@ -88,6 +88,7 @@ class Manager extends CI_Controller {
 				}
 			}
 			setcookie("total", $total, time() + (86400 * 30), "/");
+			setcookie("payment_data", base64_encode(json_encode($post)),time() + (86400 * 30), "/"); // Hairil
 			if($this->config->item('send_mail')){
 				$data_user=json_decode(base64_decode($_COOKIE['user_data']),true);
 				$message='<h2>Hai, '.$_COOKIE['user'].'</h2>';
