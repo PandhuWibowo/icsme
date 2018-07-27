@@ -33,8 +33,19 @@ class Manager extends CI_Controller {
 	public function index()
 	{
 		redirect('manager/login');
+		/*
+			Kalau mau pakai Library Simple Html Dom - Start Package
+		*/
 		//Create object of Simple_html_dom class 
         // $html = new Simple_html_dom();
+		/*
+			End Package
+		*/
+
+		/** 
+		 * Kalau mau pakai cURL - Start Package
+		 * 
+		*/
 		// persiapkan curl
 		// $url = "https://api.github.com/users/petanikode";
 		// $ch = curl_init(); 
@@ -53,12 +64,20 @@ class Manager extends CI_Controller {
 	
 		// // tutup curl 
 		// curl_close($ch);      
-	
-		// // mengembalikan hasil curl
-		// // return $output;
+		
+		// json_encode($output, TRUE);
+		
+		// mengembalikan hasil curl
+		// return $output;
 		// $profile = json_decode($output, TRUE);
-		// // print_r($profile);
+		// echo "<pre>";
+		// print_r($profile);
+		// echo "</pre>";
 		// echo $profile['avatar_url'];
+		/** 
+		 * Kalau mau pakai cURL - End Package
+		 * 
+		*/
 	}
 	
 	public function login(){
