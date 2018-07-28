@@ -1,0 +1,2 @@
+git remote add github https://github.com/PandhuWibowo/icsme.git
+git push --mirror github
