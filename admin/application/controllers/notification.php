@@ -22,7 +22,8 @@ class Notification extends CI_Controller {
 	public function __construct()
     {
         parent::__construct();
-        $params = array('server_key' => 'your_server_key', 'production' => false);
+        // sandbox or production
+        $params = array('server_key' => 'SB-Mid-server-nuJ1LN5m5J_e-SHzWT3XUfvN', 'production' => false);
 		$this->load->library('veritrans');
 		$this->veritrans->config($params);
 		$this->load->helper('url');
@@ -43,7 +44,7 @@ class Notification extends CI_Controller {
 
 		//notification handler sample
 
-		/*
+		
 		$transaction = $notif->transaction_status;
 		$type = $notif->payment_type;
 		$order_id = $notif->order_id;
@@ -74,7 +75,11 @@ class Notification extends CI_Controller {
 		  else if ($transaction == 'deny') {
 		  // TODO set payment status in merchant's database to 'Denied'
 		  echo "Payment using " . $type . " for transaction order_id: " . $order_id . " is denied.";
-		}*/
+		}
+
+		// simpan atau kirim email
+
+
 
 	}
 }
