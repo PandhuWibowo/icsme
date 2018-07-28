@@ -180,7 +180,7 @@
 
 </div>
 
-<!-- sandbox -->
+<!-- TODO: Remove ".sandbox" from script src URL for production environment. Also input your client key in "data-client-key" -->
 <script src="https://app.sandbox.midtrans.com/snap/snap.js" data-client-key="SB-Mid-client-PVqphh-fWI0SeVof"></script>
 <script type="text/javascript">
 	$(function(){
@@ -193,17 +193,26 @@
           // Optional
           onSuccess: function(result){
             /* You may add your own js here, this is just example */ 
-            document.getElementById('result-json').innerHTML += JSON.stringify(result, null, 2);
+            // document.getElementById('result-json').innerHTML += JSON.stringify(result, null, 2);
+            console.log('onSuccess');
           },
           // Optional
           onPending: function(result){
             /* You may add your own js here, this is just example */ 
-            document.getElementById('result-json').innerHTML += JSON.stringify(result, null, 2);
+            // document.getElementById('result-json').innerHTML += JSON.stringify(result, null, 2);
+            console.log('onPending');
           },
           // Optional
           onError: function(result){
             /* You may add your own js here, this is just example */ 
-            document.getElementById('result-json').innerHTML += JSON.stringify(result, null, 2);
+            // document.getElementById('result-json').innerHTML += JSON.stringify(result, null, 2);
+            console.log('onError');
+          },
+          // Optional
+          onClose: function(result){
+            /* You may add your own js here, this is just example */ 
+            // document.getElementById('result-json').innerHTML += JSON.stringify(result, null, 2);
+            console.log('onClose');
           }
         });
 	});
