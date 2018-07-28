@@ -25,6 +25,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 // $config['base_url'] = 'http://icsme.id/admin/';
 $config['base_url'] = 'http://localhost:81/icsme/admin/';
+// $config['base_url'] = 'http://localhost/Kerjaan/icsme/admin/';
 
 /*
 |--------------------------------------------------------------------------
@@ -508,7 +509,7 @@ $config['rewrite_short_tags'] = FALSE;
 $config['send_mail']=FALSE;
 $config['sender_mail']='noreply@icsme.id';
 $config['cc_mail']='';
-$config['bcc_mail']='djono@webgopek.com';
+$config['bcc_mail']='pandhuw58@gmail.com';
 /*
 |--------------------------------------------------------------------------
 | Reverse Proxy IPs
