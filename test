@@ -1,0 +1,8 @@
+1. Kalau beli lebih dari 1 tiket itu di looping, dibagian item details (file payment/index.php)
+2. Ganti tampilan bayar rekening jadi waiting for payment gateway
+3. OnClose redirect to thankyou page (payment/finish.php)
+4. Ganti credentials sandbox ke production kalau udah live
+	=> payment/content.php (client key), di client, remove .sandbox kalau production
+	=> payment/index.php (server key)
+5. Bikin cron per 25 jam orang kalau gak dibayar, stok balik lagi.
+6. Cek fungsi kalau notifikasi dari midtrans cancel berarti balikin stok

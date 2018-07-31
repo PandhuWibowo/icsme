@@ -144,6 +144,7 @@ class Manager extends CI_Controller {
 					$order.='<li>Product : '.$post['product'].'<br/>Price : $ '.number_format($post['price']).'<br/>Quantity : '.$post['quantity'].'<br/>Subtotal : $ '.number_format($post['subtotal']).'</li>';
 				}
 			}
+			$post['total_akhir'] = $total;
 			setcookie("total", $total, time() + (86400 * 30), "/");
 			setcookie("payment_data", base64_encode(json_encode($post)),time() + (86400 * 30), "/"); // Hairil
 			if($this->config->item('send_mail')){

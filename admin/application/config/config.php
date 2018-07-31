@@ -24,8 +24,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 // $config['base_url'] = 'http://icsme.id/admin/';
-$config['base_url'] = 'http://localhost:81/icsme/admin/';
-// $config['base_url'] = 'http://localhost/Kerjaan/icsme/admin/';
+// $config['base_url'] = 'http://localhost:81/icsme/admin/';
+$config['base_url'] = 'http://localhost/Kerjaan/icsme2/admin/';
 
 /*
 |--------------------------------------------------------------------------

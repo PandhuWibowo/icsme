@@ -238,6 +238,11 @@ class mMaster extends CI_Model {
 		$this->email->message($message); 
 		$yess=@$this->email->send();
 	}
+
+	public function updatePayment($ornum){
+		$this->db->where('order_number',$ornum);
+		return $this->db->update('data_payment', array('payment_date' => date('Y-m-d H:i:s')));
+	}
 	
 }
 ?>

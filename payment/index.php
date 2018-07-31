@@ -1,4 +1,5 @@
 <?php
+error_reporting(E_ERROR | E_PARSE);
 
 require '../vendor/autoload.php';
 
@@ -7,7 +8,7 @@ Veritrans_Config::$serverKey = 'SB-Mid-server-nuJ1LN5m5J_e-SHzWT3XUfvN'; // sand
 // Set to Development/Sandbox Environment (default). Set to true for Production Environment (accept real transaction).
 Veritrans_Config::$isProduction = false;
 // Set sanitization on (default)
-Veritrans_Config::$isSanitized = false;
+Veritrans_Config::$isSanitized = true;
 // Set 3DS transaction for credit card to true
 Veritrans_Config::$is3ds = true;
 
@@ -29,7 +30,7 @@ if (empty($user_data) && empty($payment_data)) {
 // Required
 $transaction_details = array(
   'order_id' => $payment_data->order_number,
-  'gross_amount' => $payment_data->subtotal, // no decimal allowed for creditcard
+  'gross_amount' => $payment_data->total_akhir, // no decimal allowed for creditcard
 );
 
 // Empty bag...
